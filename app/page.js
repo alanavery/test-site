@@ -1,10 +1,9 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      Test Site
+      <h1>Test Site</h1>
     </main>
   );
 }
